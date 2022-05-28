@@ -93,36 +93,41 @@ not False
 
 
 (5 > 4) and (3 == 5)
+"False"
 
 
 # In[12]:
 
 
 not (5 > 4) 
+"False"
 
 
 # In[14]:
 
 
 (5 > 4) or (3 == 5) 
+"True"
 
 
 # In[15]:
 
 
 not ((5 >4) or (3 == 5))
-
+"False"
 
 # In[17]:
 
 
 (True and True) and (True == False)
+"False"
 
 
 # In[18]:
 
 
 (not False) or (not True)
+"True"
 
 
 # 5. What are the six comparison operators?
@@ -259,6 +264,7 @@ range(0,10,1): it means in for loop that returns a sequence of no. from  0 to 9 
 
 for i in range(1,11):
     print(i,end="  ")
+output=1  2  3  4  5  6  7  8  9  10      
 
 
 # In[23]:
@@ -268,6 +274,8 @@ i=1
 while i<11:
     print(i,end="  ")
     i+=1
+output=1  2  3  4  5  6  7  8  9  10      
+      
 
 
 # 13. If you had a function named bacon() inside a module named spam, how would you call it after
