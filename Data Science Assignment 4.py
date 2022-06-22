@@ -11,15 +11,13 @@
 
 # 2. In a list of values stored in a variable called spam, how would you assign the value "hello" as the
 # third value? (Assume [2, 4, 6, 8, 10] are in spam.)
-# 
-# Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
-
 # In[ ]:
 
 
 By using insert function we can insert any value at our desired position.
 spam=[2,4,6,8,10]
 spam.insert(3,"hello")
+output: [2,4,6,"hello",8,10]
 
 
 # Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
