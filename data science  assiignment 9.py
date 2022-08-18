@@ -32,7 +32,7 @@ os.chdir() allow us to set the current working directory to a path of your choic
 
 
 single dot (".") refers to current directory.
-double dot ("..") refers to move up in hierarchy from the current directory.
+double dot ("..") refers to parent directory.
 
 
 # 5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
